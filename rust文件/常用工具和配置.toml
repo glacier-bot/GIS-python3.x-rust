@@ -1,12 +1,11 @@
-[dependencies]
 # 常用工具
+[dependencies]
 # using index hashmap
 indexmap = ""
 # Excel reading and writing
 umya-spreadsheet = ""
 # Polars for DataFrame processing (pin to older stable series to avoid build issues)
-polars = { version = "0.50.0", features = ["lazy", "temporal"] }
-
+polars = { version = "", features = ["lazy", "temporal"] }
 
 # 发布时的常用配置
 [profile.release]
