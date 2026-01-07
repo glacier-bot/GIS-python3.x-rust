@@ -1,7 +1,0 @@
-# 发布时的常用配置
-[profile.release]
-debug = false
-lto = true
-codegen-units = 1
-panic = "abort"
-opt-level = "z"
