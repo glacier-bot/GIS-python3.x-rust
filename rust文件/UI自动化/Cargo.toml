@@ -1,0 +1,16 @@
+[package]
+name = "ui自动化"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+# win10 automation
+uiautomation = "0.24.2"
+# Excel reading and writing
+umya-spreadsheet = "2.3.3"
+
+[profile.release]
+debug = false
+lto = true
+codegen-units = 1
+opt-level = "z"
