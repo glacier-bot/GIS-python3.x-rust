@@ -1,0 +1,4 @@
+在指定路径下查找：
+(Get-ChildItem -Path "/target/path" -Directory/-File "*XXX*.XX" /-Recurse).fullname/.name > result.txt
+在当前路径下查找：
+(Get-ChildItem -Directory/-File "*XXX*" /-Recurse).fullname/.name > result.txt
